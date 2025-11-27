@@ -62,7 +62,7 @@ def save_coords():
 def update_plot():
     if len(coords) > 0:
         xs, ys = zip(*coords)
-        line.set_data(xs + (xs[0],), ys + (ys[0],))  # close polygon visually
+        line.set_data(xs, ys)  # close polygon visually
         points.set_data(xs, ys)
         fig.canvas.draw_idle()
 
