@@ -2398,7 +2398,7 @@ class sympy_square_parameterpath(MovingCameraScene):
         ray_starting_direction_nonnormalised = [1,0.25,0]
         ray_head_speed = 5 # Units per second
         ray_tail_dissipation_time = 0.2
-        ray_tracer_stroke_width = 1.2
+        ray_tracer_stroke_width = 1.25
         bounding_box_stroke_width = 1.95
         animation_run_time = 100
         reflections_to_render = 103
